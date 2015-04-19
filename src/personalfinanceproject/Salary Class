@@ -1,0 +1,28 @@
+
+public class Salary extends Income {
+
+	public String  salaryType;
+	public double salaryAmount;
+	public double deductions;
+	
+public String getSalaryType()
+{
+	return salaryType;
+}
+
+public double setsalaryAmount()
+{
+	return salaryAmount;
+}
+
+public double setdeductions()
+{
+	return deductions;
+}
+
+public double getnetSalary()
+{
+return this.setsalaryAmount()-this.setdeductions();
+}
+
+}
