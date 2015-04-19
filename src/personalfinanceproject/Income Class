@@ -1,0 +1,29 @@
+
+public class Income {
+
+	public double incomeAmount;
+	public String incomeType;
+	public double totalTaxes;
+	public double netIncome;
+	
+public String getincomeType()
+{
+	return incomeType;
+}
+
+public double getincomeAmount()
+{
+	return incomeAmount;
+}
+
+public double gettotalTaxes()
+{
+	return totalTaxes;
+}
+
+public double getnetIncome()
+{
+	return incomeAmount-totalTaxes;
+}
+
+}
