@@ -1,0 +1,31 @@
+
+public class Investments extends Income{
+
+	public String investmentType;
+	public double initialinvestedAmount;
+	public double gains;
+	public double updatedinvestedAmount;
+	
+public String setInvestmentType()
+{
+	return investmentType;
+}
+
+public double setinitialinvestedAmount()
+{
+	return initialinvestedAmount;
+}
+
+public double setgains()
+{
+	return gains;
+}
+
+public double updatedinvestedAmount()
+{
+	updatedinvestedAmount += this.setgains();
+	return updatedinvestedAmount;
+	
+}
+
+}
