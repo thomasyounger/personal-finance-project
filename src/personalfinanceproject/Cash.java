@@ -10,6 +10,7 @@ package cis111B.personalfinanceproject;
 public class Cash extends Expense {
 
 	/**
+	 * Cash
 	 * @param amount
 	 */
 	public Cash(double amount) {
