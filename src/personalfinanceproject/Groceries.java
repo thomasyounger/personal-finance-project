@@ -10,6 +10,7 @@ package cis111B.personalfinanceproject;
 public class Groceries extends Expense {
 
 	/**
+	 * Groceries
 	 * @param amount
 	 */
 	public Groceries(double amount) {
