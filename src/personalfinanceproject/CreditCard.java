@@ -5,7 +5,7 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- *
+ * This class keeps track of purchases made on a creditcard
  */
 public class CreditCard extends Expense {
 
