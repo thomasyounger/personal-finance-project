@@ -12,6 +12,8 @@ public class Expense {
 	//String methodofPayment;
 	
 	/**
+	 * Expense
+	 * sets the amouunt
 	 * @param amount
 	 */
 	public Expense(double amount) {
@@ -19,6 +21,8 @@ public class Expense {
 	}
 	
 	/**
+	 * setExpense
+	 * sets the amount
 	 * @param amount
 	 */
 	public void setExpense(double amount) {
@@ -26,7 +30,9 @@ public class Expense {
 	}
 	
 	/**
-	 * @return
+	 * getExpense
+	 * gets the expense amount
+	 * @return amount
 	 */
 	public double getExpense() {
 		return amount;
