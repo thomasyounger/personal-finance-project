@@ -1,25 +1,47 @@
-
+/**
+* This class keeps track of any salary recieved
+*/
 public class Salary extends Income {
 
 	public String  salaryType;
 	public double salaryAmount;
 	public double deductions;
-	
+
+/**
+* getSalaryType
+* gets the type of salary being recieved
+* @return salaryType
+*/	
 public String getSalaryType()
 {
 	return salaryType;
 }
 
+/**
+* setsalaryAmount
+* gets the total salary being recieved
+* @return salaryAmount
+*/
 public double setsalaryAmount()
 {
 	return salaryAmount;
 }
 
+/**
+* setdeductions
+* sets the deduction amount
+* @return deductions
+*/
 public double setdeductions()
 {
 	return deductions;
 }
 
+/**
+* getnetSalary
+* gets the total salary being recieved in a pay cycle
+* @return (this.setsalaryAmount() - this.setdeductions() )
+*/
 public double getnetSalary()
 {
 return this.setsalaryAmount()-this.setdeductions();
