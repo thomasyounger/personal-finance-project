@@ -10,6 +10,7 @@ package cis111B.personalfinanceproject;
 public class Donation extends Expense {
 
 	/**
+	 * Donation
 	 * @param amount
 	 */
 	public Donation(double amount) {
