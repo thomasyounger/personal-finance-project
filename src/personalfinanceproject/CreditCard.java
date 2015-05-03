@@ -10,6 +10,7 @@ package cis111B.personalfinanceproject;
 public class CreditCard extends Expense {
 
 	/**
+	 * CreditCard
 	 * @param amount
 	 */
 	public CreditCard(double amount) {
