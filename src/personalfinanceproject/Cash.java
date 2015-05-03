@@ -5,7 +5,7 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- *
+ * This class keeps track of the amount of cash on a person at any given time
  */
 public class Cash extends Expense {
 
