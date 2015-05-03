@@ -5,7 +5,7 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- *
+ * This class keeps track of groceries/food expenses
  */
 public class Groceries extends Expense {
 
