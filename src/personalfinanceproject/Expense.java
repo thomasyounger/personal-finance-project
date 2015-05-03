@@ -2,7 +2,7 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- *
+ * This class keeps track of overall expenses
  */
 public class Expense {
 	double amount;
