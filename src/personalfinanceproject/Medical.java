@@ -10,6 +10,7 @@ package cis111B.personalfinanceproject;
 public class Medical extends Expense {
 
 	/**
+	 * Medical
 	 * @param amount
 	 */
 	public Medical(double amount) {
