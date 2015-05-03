@@ -5,7 +5,7 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- *
+ * This class keeps track of medical expenses
  */
 public class Medical extends Expense {
 
