@@ -5,22 +5,42 @@ public class Income {
 	public String incomeType;
 	public double totalTaxes;
 	public double netIncome;
-	
+
+/**
+* getincomeType
+* gets the type of income being used
+* @return incomeType
+*/	
 public String getincomeType()
 {
 	return incomeType;
 }
 
+/**
+* getincomeAmount
+* gets the amount/value of income being used
+* @return incomeAmount
+*/
 public double getincomeAmount()
 {
 	return incomeAmount;
 }
 
+/**
+* gettotalTaxes
+* gets the amount of income being used for taxes
+* @return totalTaxes
+*/
 public double gettotalTaxes()
 {
 	return totalTaxes;
 }
 
+/**
+* getnetIncome
+* gets the value of the overall income
+* @return incomeAmount
+*/
 public double getnetIncome()
 {
 	return incomeAmount-totalTaxes;
