@@ -5,22 +5,42 @@ public class Investments extends Income{
 	public double initialinvestedAmount;
 	public double gains;
 	public double updatedinvestedAmount;
-	
+
+/**
+* setInvestmentType
+* gets the type of investment being made
+* @return investmentType
+*/	
 public String setInvestmentType()
 {
 	return investmentType;
 }
 
+/**
+* setinitialinvestedAmount
+* gets the amount being invested
+* @return incomeType
+*/
 public double setinitialinvestedAmount()
 {
 	return initialinvestedAmount;
 }
 
+/**
+* setgains
+* gets the amount gained by investments
+* @return gains
+*/
 public double setgains()
 {
 	return gains;
 }
 
+/**
+* updatedinvestedAmount
+* updates the total amount being invested
+* @return updatedinvestedAmount
+*/
 public double updatedinvestedAmount()
 {
 	updatedinvestedAmount += this.setgains();
