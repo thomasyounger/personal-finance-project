@@ -1,6 +1,7 @@
 package personalfinanceproject;
 
 /**
+ * javadoc by christalyn
  * Savings
  * This class keeps track of any savings, deposits, and withdrawals
 */
@@ -9,7 +10,7 @@ public class Savings {
 	
 	/**
  	* Savings
- 	* sets the balance
+ 	* sets the initial balance
  	* @parm balance
 	*/
 	public Savings(double balance) {
