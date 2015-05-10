@@ -11,7 +11,7 @@ public class Utilities extends Expense {
 
 	/**
 	 * Utilities
-	 * sets the utilities expenses
+	 * inherits the amount
 	 * @param amount
 	 */
 	public Utilities(double amount) {
