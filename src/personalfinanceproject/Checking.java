@@ -1,6 +1,8 @@
 package personalfinanceproject;
 
 /**
+ * javadoc by christalyn
+ * Checking
  * This class keeps track of the checking account
 */
 public class Checking {
