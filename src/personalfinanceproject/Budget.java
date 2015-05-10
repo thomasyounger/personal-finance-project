@@ -1,10 +1,8 @@
-/**
- * 
- */
 package cis111B.personalfinanceproject;
 
 /**
  * @author patrickowens
+ * javadoc by christalyn
  * Budget
  * This class keeps track a users budget over a particular time frame
  */
@@ -12,10 +10,6 @@ public class Budget {
 	
 	private double amountGoal;
 	private double timeFrame;
-	//Do we use these two variables?
-	//private double gains;
-	//private double amount;
-	
 	public double netIncome;
 	public double totalExpenses;
 	
