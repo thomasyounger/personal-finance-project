@@ -1,4 +1,7 @@
 /**
+* javadoc by christalyn
+* Salary
+* @inheritDoc Income
 * This class keeps track of any salary recieved
 */
 public class Salary extends Income {
