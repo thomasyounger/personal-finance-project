@@ -7,7 +7,7 @@ package cis111B.personalfinanceproject;
  * This class keeps track of overall expenses
  */
 public class Expense {
-	double amount;
+	private double amount;
 	
 	/**
 	 * Expense
