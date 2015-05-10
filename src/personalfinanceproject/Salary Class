@@ -9,6 +9,11 @@ public class Salary extends Income {
 	public String  salaryType;
 	public double salaryAmount;
 	public double deductions;
+	
+public Salary (double SalaryAmt,double tax, double investAmt, double g)
+	{
+		super(SalaryAmt, tax, investAmt, g);
+	}
 
 /**
 * getSalaryType
