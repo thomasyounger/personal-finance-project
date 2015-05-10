@@ -2,18 +2,16 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
+ * javadoc by christalyn
+ * Expense
  * This class keeps track of overall expenses
  */
 public class Expense {
 	double amount;
-	//Are these string data necessary??
-	//String date;
-	//String category;
-	//String methodofPayment;
 	
 	/**
 	 * Expense
-	 * sets the amouunt
+	 *sets the initial amouunt
 	 * @param amount
 	 */
 	public Expense(double amount) {
