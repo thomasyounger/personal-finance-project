@@ -1,11 +1,10 @@
-/**
- * 
- */
 package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
+ * javadoc by christalyn
  * Utilities
+ * @inheritDoc Expense
  *  This class keeps track of any utility expenses
  */
 public class Utilities extends Expense {
