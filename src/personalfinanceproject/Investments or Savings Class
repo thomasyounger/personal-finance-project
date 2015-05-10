@@ -1,4 +1,9 @@
-
+/**
+* javadoc by christalyn
+* Investments
+* @inheritDoc Income
+* Keeps track of investments
+*/
 public class Investments extends Income{
 
 	public String investmentType;
