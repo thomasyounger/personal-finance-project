@@ -11,6 +11,11 @@ public class Investments extends Income{
 	public double gains;
 	public double updatedinvestedAmount;
 
+public Investments(double SalaryAmt,double tax, double investAmt, double g)
+{
+	super(SalaryAmt, tax, investAmt, g);
+}
+
 /**
 * setInvestmentType
 * gets the type of investment being made
