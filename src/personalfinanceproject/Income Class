@@ -1,10 +1,54 @@
-
+/** 
+* javadoc by christalyn
+* Income
+* Keeps track of a users income
+*/
 public class Income {
 
 	public double incomeAmount;
 	public String incomeType;
 	public double totalTaxes;
 	public double netIncome;
+
+/**
+* setincomeType
+* sets the type of income being used
+* @parm type
+*/	
+public void setincomeType(String type)
+{
+	incomeType = type;
+}
+
+/**
+* setincomeAmount
+* sets the amount/value of income being used
+* @parm amount
+*/
+public void setincomeAmount(double amount)
+{
+	incomeAmount = amount;
+}
+
+/**
+* settotalTaxes
+* sets the amount of income being used for taxes
+* @parm taxes
+*/
+public void settotalTaxes(double taxes)
+{
+	totalTaxes = taxes;
+}
+
+/**
+* setnetIncome
+* sets the value of the overall income
+* @parm income
+*/
+public void setnetIncome(double income)
+{
+	incomeAmount = income - totalTaxes;
+}
 
 /**
 * getincomeType
@@ -43,7 +87,7 @@ public double gettotalTaxes()
 */
 public double getnetIncome()
 {
-	return incomeAmount-totalTaxes;
+	return incomeAmount;
 }
 
 }
