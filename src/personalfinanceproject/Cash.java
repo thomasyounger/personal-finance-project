@@ -2,8 +2,9 @@ package cis111B.personalfinanceproject;
 
 /**
  * @author thomasyounger
- * @inheritDoc Expense
  * javadoc by christalyn
+ * Cash
+ * @inheritDoc Expense
  * This class keeps track of the amount of cash on a person at any given time
  */
 public class Cash extends Expense {
