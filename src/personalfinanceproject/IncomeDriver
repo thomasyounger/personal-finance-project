@@ -1,0 +1,21 @@
+
+public class IncomeDriver {
+
+	public static void main(String[] args)
+	{
+		Income[] IncomeList;
+		IncomeList = new Income[2];
+		IncomeList[0]=new Income(10000,500,4000,30);
+		IncomeList[1]=new Income(30000,100,555,20);
+		
+		for(int i= 0; i<IncomeList.length; i++)
+		{
+			System.out.println("The income is $"+IncomeList[i].getSalaryAmount()+". The tax paid is $"+IncomeList[i].gettotalTaxes()+
+					". The net income is $"+IncomeList[i].getnetIncome()+". ");
+			System.out.println("The initial invest is $"+IncomeList[i].getInvestment()+". The gains is $"+IncomeList[i].getGains()
+					+". The total updated investment is $"+IncomeList[i].gettotalInvestment()+".");
+			System.out.println("The total overall income is $"+IncomeList[i].getoverallIncome()+".");
+		}
+		
+		}
+	}
