@@ -1,0 +1,25 @@
+
+public class BudgetDriver {
+	
+	public static void main(String[] args)
+	{
+		
+		Budget[] budgetList;
+		budgetList = new Budget[2];
+		
+		budgetList[0] = new Budget(100000,5000,3000,5);
+		budgetList[1] = new Budget(40000,300,5000,12);
+		
+		
+		
+		for(int i = 0; i<budgetList.length;i++)
+		{
+								System.out.println("The overall income is $"+budgetList[i].getincome()+".");
+								System.out.println("The total expenses is $"+ budgetList[i].getexpense()+".");
+								System.out.println("The ideal amount to save per month is $"+budgetList[i].getMonthlyAmount()+".");
+								System.out.println("The amount left to save per month is $"+budgetList[i].realamounttoSavemonthly());
+		}
+		
+		}		
+		
+	}
