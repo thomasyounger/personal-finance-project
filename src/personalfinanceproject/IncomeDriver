@@ -1,4 +1,11 @@
-
+/**
+* @author Suyin
+* javadoc by christalyn
+* IncomeDriver
+* A driver meant to test out the income program
+* Note- Due to everyone needing to take the time to nderstand the process of making an android app the
+* driver and app are not fully completed and there are still bugs
+*/
 public class IncomeDriver {
 
 	public static void main(String[] args)
